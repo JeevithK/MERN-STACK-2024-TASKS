@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Task 4</title>
+
+  <style>
+    label {
+        margin-left: 50px;
+        margin-right: 200px;
+    }
+
+    button {
+        margin-left: 50px;
+        border-color: orange;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    #i1 {
+        margin-top: 50px;
+    }
+
+    #i2 {
+        margin-left: 4px;
+    }
+
+    #i3 {
+        margin-left: 8px;
+    }
+
+    .labelrepassword {
+        margin-right: 186px;
+    }
+
+    #i5 {
+        margin-left: 17px;
+    }
+
+    #i6 {
+        margin-left: 42.5px;
+    }
+
+    #i7 {
+        margin-left: 22px;
+    }
+
+    input,select {
+        margin-bottom: 5px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+    <label for="fullname">Full Name:</label>
+    <input type="text" name="fullname" id="i1" placeholder="Enter your full name"/>
+    <br />
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="i2" placeholder="Enter your username"/>
+    <br />
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="i3"/>
+    <br />
+    <label for="repassword" class="labelrepassword">Re Password:</label>
+    <input type="password" name="repassword" id="i4"/>
+    <br />
+    <label for="address">Address:</label>
+    <input type="text" name="address" id="i5" placeholder="Enter your address"/>
+    <br />
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="i6" placeholder="Enter your age"/>
+    <br />
+    <label for="gender">Gender:</label>
+    <select name="gender" id="i7">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+
+  <br />
+  <button type="submit">Save</button>
+
+</body>
+
+</html>

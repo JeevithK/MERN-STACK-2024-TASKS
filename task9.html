@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Task 9</title>
+
+    <style>
+
+      button {
+        width: 40px;
+        height: 50px;
+        border: none;
+      }
+
+      .green, .blue, .red, .grey {
+        padding: 10px;
+        margin: 8px;
+        margin-left: 0px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+      }
+
+      .green {
+        background-color: rgb(121, 199, 121);
+      }
+
+      .blue {
+        background-color: rgb(19, 147, 233);
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .grey {
+        background-color: rgb(114, 108, 108);
+      }
+
+      .green:hover, .blue:hover, .red:hover, .grey:hover {
+        width: 50px;
+      }
+
+      body {
+        margin-left: 0px;
+      }
+
+      .total {
+        display: grid;
+        grid-template-columns: 20% 80%;
+      }
+
+      .buttons {
+        margin-top: 10px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="total">
+
+    <div class="buttons">
+    <button class="green"></button><br />
+    <button class="blue"></button><br />
+    <button class="red"></button><br />
+    <button class="grey"></button>
+    </div>
+
+    <div class="text">
+      <h1>Hoverable Sidenav Buttons</h1>
+      <p>Hover over the buttons in the left side navigation to open them.</p>
+      </div>
+    </div>
+
+  </body>
+</html>

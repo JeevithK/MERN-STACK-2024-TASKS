@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Task 10</title>
+
+    <style>
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(208, 224, 22);
+      }
+
+      pre {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .total {
+        display: grid;
+        grid-template-columns: 25% 75%;
+      }
+
+      .nav {
+        margin: 10% 0% 0% 2%;
+      }
+
+      .bottom {
+        margin-left: 0%;
+      }
+
+      button {
+        height: 28px;
+        width: 170px;
+        font-weight: bold;
+        color: blue;
+        border-width: 0px 20px 0px 0px;
+        border-color: black;
+        margin-bottom: 10px;
+        cursor: pointer;
+        text-align: left;
+        transition: color 0.15s, opacity 0.15s, cursor 0.15s;
+      }
+
+      button:hover {
+        color: rgb(177, 67, 135);
+        opacity: 0.6;
+      }
+
+      button:active {
+        color: rgb(177, 67, 135);
+        opacity: 0.3s;
+      }
+
+      .text {
+        color: rgb(177, 67, 135);
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="total">
+      <div class="nav">
+        <button>Home page</button>
+        <br />
+        <button>Musings</button>
+        <br />
+        <button>My town</button>
+        <br />
+        <button>Links</button>
+      </div>
+      <div class="text">
+        <h1>My first styled page</h1>
+        <pre>Welcome to my styled page!</pre>
+        <pre>
+It lacks images, but at least it has style. And it
+has links, even if they don't go anywhere...
+        </pre>
+        <pre>
+There should be more here, but I don't know
+what yet.
+        </pre>
+        <hr color=""/>
+        <pre class="bottom">
+<em>Made 5 April 2004</em>
+<em>by myself.</em>
+        </pre>
+      </div>
+    </div>
+
+  </body>
+</html>

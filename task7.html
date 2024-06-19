@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Task 7</title>
+
+    <style>
+
+        .div1 > button {
+            color: blue;
+            padding: 10px;
+            padding-left: 15px;
+            cursor: pointer;
+            margin: 0px;
+            background-color: rgb(167, 220, 241);
+            border-color: black;
+            border-width: 1px;
+            width: 200px;
+            height: 50px;
+            justify-content: left;
+            border-bottom: none;
+            border-top: none;
+        }
+
+        #home {
+            border-top-width: 1px;
+            border-top-color: black;
+            border-top-style: solid;
+        }
+
+        #bs {
+            border-bottom-width: 1px;
+            border-bottom-color: black;
+            border-bottom-style: solid;
+        }
+
+        .div1 > button:hover {
+            background-color: orange;
+            color: white;
+        }
+
+        .div1, .div2 {
+            width: 200px;
+            margin: 50px;
+        }
+
+        .div2 {
+            display: flex;
+            border-collapse: collapse;
+        }
+
+        .div2 > div > button {
+            color: blue;
+            height: 35px;
+            width: 80px;
+            /* border: none; */
+            border-color: white;
+            border-left-color: blue;
+            cursor: pointer;
+        }
+
+        .div2 > div > button:hover {
+            background-color: grey;
+            color: white;
+        }
+
+        #home2 {
+            border-color: white;
+        }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="div1">
+    <button id="home">Home</button><br />
+    <button>Java</button><br />
+    <button>CSS</button><br />
+    <button>HTML</button><br />
+    <button id="bs">Bootstrap</button>
+    </div>
+
+    <div class="div2">
+        <div><button id="home2">Home</button></div>
+        <div><button>Java</button></div>
+        <div><button>CSS</button></div>
+        <div><button>HTML</button></div>
+        <div><button id="bs2">Bootstrap</button></div>
+    </div>
+
+  </body>
+</html>

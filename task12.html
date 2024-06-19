@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Task 12</title>
+
+    <style>
+
+      body {
+        background-color: rgb(175, 30, 69);
+      }
+
+      div {
+        background-color: rgb(132, 33, 59);
+        padding: 10%;
+        margin: 10%;
+      }
+
+      input {
+        border: none;
+      }
+
+      label {
+        color: white;
+      }
+
+      .register {
+        width: 70%;
+        height: 40px;
+        margin: 0% 10%;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+
+      .register:hover {
+        opacity: 0.6;
+      }
+
+      .register:active {
+        opacity: 0.3;
+      }
+
+      table {
+        width: 75%;
+      }
+
+      .inputgender {
+        cursor: pointer;
+      }
+
+      .kbinp {
+        height: 25px;
+        margin-bottom: 10px;
+        width: 200px;
+      }
+
+      .about {
+        width: 200px;
+      }
+
+      .lang {
+        height: 25px;
+        margin-bottom: 10px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <center>
+        <div>
+            <center>
+    <table>
+        <tr>
+            <td>
+                <label for="Name">Name:</label>
+                </td>
+                <td>
+                <input type="text" name="Name" class="kbinp" placeholder="your name" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+                </td>
+                <td>
+                <input type="email" name="email"
+                class="kbinp" placeholder="your email" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+                </td>
+                <td>
+                <input type="password" name="password" class="kbinp" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pno">Phone Number:</label>
+                </td>
+                <td>
+                <input type="tel" name="pno" class="kbinp" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Gender:</label>
+            </td>
+            <td>
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" class="inputgender" value="male">
+                <label for="male">Female:</label>
+                <input type="radio" name="gender" class="inputgender" value="female">
+                <label for="male">Other:</label>
+                <input type="radio" name="gender" class="inputgender" value="other">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lang">language</label>
+            </td>
+            <td>
+                <select name="lang" value="lang" class="lang" >
+                    <option disabled selected>Select language</option>
+                    <option>Tamil</option>
+                    <option>English</option>
+                    <option>Telugu</option>
+                    <option>Hindi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="zcode">Zip Code:</label>
+                </td>
+                <td>
+                <input type="number" name="zcode" class="kbinp"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="about" >About:</label>
+                </td>
+                <td>
+                    <textarea type="text" name="about" class="about" placeholder="Write about yourself..."></textarea>
+            </td>
+        </tr>
+    </table>
+    </center>
+    <br />
+    <br />
+    <button type="submit" class="register">Register</button>
+    </div>
+    </center>
+
+  </body>
+</html>
